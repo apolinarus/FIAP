@@ -1,4 +1,4 @@
-package com.fintech;
+package com.fintech.conta;
 
 public class TesteConta {
 
