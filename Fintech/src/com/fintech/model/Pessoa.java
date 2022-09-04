@@ -9,6 +9,21 @@ public class Pessoa {
 	private Integer telefone;
 	
 	
+	//Construtores
+	public Pessoa () {}
+	
+	//Metodos
+	public Pessoa(String nome, String endereco, String email, Integer telefone) {
+		
+		this.nome = nome;
+		this.endereco = endereco;
+		this.email = email;
+		this.telefone = telefone;
+	}
+	
+	
+	
+	
 	
 
 }
