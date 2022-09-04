@@ -16,6 +16,23 @@ public class ContaCorrente extends Conta {
 		this.limiteChequeEspecial = limite;
 		// TODO Auto-generated constructor stub
 	}
+
+	
+	
+	//Metodos
+	public Double getSaldo() {
+		return saldo + limiteChequeEspecial;
+	}
+	
+	public Double getLimiteChequeEspecial() {
+		return limiteChequeEspecial;
+	}
+
+	public void setLimiteChequeEspecial(Double limiteChequeEspecial) {
+		this.limiteChequeEspecial = limiteChequeEspecial;
+	}
+	
+	
 	
 	
 

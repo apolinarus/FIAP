@@ -5,7 +5,7 @@ public class Conta {
 	//Atributos
 	private Integer numero;
 	private Integer agencia;
-	private Double saldo;
+	protected Double saldo;
 	
 		
 	//Construtores
