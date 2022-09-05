@@ -17,8 +17,19 @@ public class ContaPoupanca extends Conta {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+		
 	//Metodos
+	public double getTxJuros() {
+		return txJuros;
+	}
+
+	public void setTxJuros(double txJuros) {
+		this.txJuros = txJuros;
+	}
+	
+	
+	
+	
 	
 	
 

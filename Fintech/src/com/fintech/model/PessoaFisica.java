@@ -1,13 +1,16 @@
 package com.fintech.model;
 
+import java.math.BigInteger;
 import java.util.Date;
 
 public class PessoaFisica extends Pessoa{
 	
 	//Atributos
-	private Integer cpf;
-	private Integer rgInteger;
-	private Date dtNascimento;
+	private BigInteger cpf;
+	private BigInteger rg;
+	private String dtNascimento;
+	private ContaCorrente contaCorrente;
+	private ContaPoupanca contaPoupanca;
 	
 	
 	//Construtores
@@ -32,23 +35,35 @@ public class PessoaFisica extends Pessoa{
 	
 	
 	//Metodos
-	public Integer getCpf() {
+	public BigInteger getCpf() {
 		return cpf;
 	}
-	public void setCpf(Integer cpf) {
+	public void setCpf(BigInteger cpf) {
 		this.cpf = cpf;
 	}
-	public Integer getRgInteger() {
-		return rgInteger;
+	public BigInteger getRg() {
+		return rg;
 	}
-	public void setRgInteger(Integer rgInteger) {
-		this.rgInteger = rgInteger;
+	public void setRgInteger(BigInteger rg) {
+		this.rg = rg;
 	}
-	public Date getDtNascimento() {
+	public String getDtNascimento() {
 		return dtNascimento;
 	}
-	public void setDtNascimento(Date dtNascimento) {
+	public void setDtNascimento(String dtNascimento) {
 		this.dtNascimento = dtNascimento;
+	}
+	public ContaCorrente getContaCorrente() {
+		return contaCorrente;
+	}
+	public void setContaCorrente(ContaCorrente contaCorrente) {
+		this.contaCorrente = contaCorrente;
+	}
+	public ContaPoupanca getContaPoupanca() {
+		return contaPoupanca;
+	}
+	public void setContaPoupanca(ContaPoupanca contaPoupanca) {
+		this.contaPoupanca = contaPoupanca;
 	}
 		
 

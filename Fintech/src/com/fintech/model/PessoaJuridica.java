@@ -7,7 +7,7 @@ public class PessoaJuridica extends Pessoa{
 	//Atributos
 	private Integer cnpj;
 	private String razaoSocial;
-	private Date dtAbetura;	
+	private String dtAbetura;	
 	
 	//Construtores
 	public PessoaJuridica() {
@@ -20,7 +20,7 @@ public class PessoaJuridica extends Pessoa{
 	 * @param razaoSocial
 	 * @param dtAbetura
 	 */
-	public PessoaJuridica(String nome, String endereco, String email, Integer telefone ,Integer cnpj, String razaoSocial, Date dtAbetura) {
+	public PessoaJuridica(String nome, String endereco, String email, Integer telefone ,Integer cnpj, String razaoSocial, String dtAbetura) {
 		super(nome, endereco, email, telefone);
 		this.cnpj = cnpj;
 		this.razaoSocial = razaoSocial;
@@ -42,10 +42,10 @@ public class PessoaJuridica extends Pessoa{
 	public void setRazaoSocial(String razaoSocial) {
 		this.razaoSocial = razaoSocial;
 	}
-	public Date getDtAbetura() {
+	public String getDtAbetura() {
 		return dtAbetura;
 	}
-	public void setDtAbetura(Date dtAbetura) {
+	public void setDtAbetura(String dtAbetura) {
 		this.dtAbetura = dtAbetura;
 	}
 
