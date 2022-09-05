@@ -1,6 +1,6 @@
 package com.fintech.model;
 
-public class Conta {	
+public abstract class Conta {	
 	
 	//Atributos
 	private Integer numero;
@@ -12,7 +12,7 @@ public class Conta {
 	public Conta() {}
 	
 	public Conta(Integer numero, Integer agencia, Double saldo) {
-		super();
+		
 		this.numero = numero;
 		this.agencia = agencia;
 		this.saldo = saldo;

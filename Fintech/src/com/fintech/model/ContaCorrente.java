@@ -11,9 +11,9 @@ public class ContaCorrente extends Conta {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ContaCorrente(Integer numero, Integer agencia, Double saldo, Double limite) {
+	public ContaCorrente(Integer numero, Integer agencia, Double saldo, Double limiteChequeEspecial) {
 		super(numero, agencia, saldo);
-		this.limiteChequeEspecial = limite;
+		this.limiteChequeEspecial = limiteChequeEspecial;
 		// TODO Auto-generated constructor stub
 	}
 
